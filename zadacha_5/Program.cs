@@ -27,7 +27,7 @@ for (i = 0; i < size / 2; i++)
 }
 if (array.Length % 2 != 0)
 {
-    newArray[newArray.Length -1] += array[array.Length % 2 +1];
+    newArray[newArray.Length -1] = array[array.Length % 2 +1];
 }
 System.Console.WriteLine('[' + string.Join(",", array) + ']');
 System.Console.WriteLine('[' + string.Join(" ", newArray) + ']');
